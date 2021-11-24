@@ -1,0 +1,65 @@
+.footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-left {
+  margin-right: 70px;
+}
+
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+  margin-bottom: 9px;
+}
+
+.footer-contacts-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer-contacts {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  display: block;
+  transition: color var(--duration) var(--timing-function);
+
+  &:hover,
+&:focus {
+  color: var(--accent-color);
+}
+}
+
+.subscribe-form {
+  margin-left: 93px;
+}
+
+.subscribe-form-input {
+  min-width: 358px;
+  min-height: 50px;
+  padding: 15px 16px;
+  margin-right: 12px;
+  background-color: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+
+  &:focus {
+  outline: none;
+}
+}
+
+.subscribe-icon {
+  width: 24px;
+  height: 24px;
+}
+

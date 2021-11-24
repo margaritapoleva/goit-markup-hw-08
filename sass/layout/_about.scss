@@ -1,0 +1,15 @@
+.about-img {
+  display: flex;
+}
+
+.about-img .list:not(:last-child) {
+  margin-right: 30px;
+}
+
+.about-item {
+  position: relative;
+}
+
+.about {
+  padding-bottom: 94px;
+}

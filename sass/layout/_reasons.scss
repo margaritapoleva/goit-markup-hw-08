@@ -1,0 +1,36 @@
+.reasons {
+  padding: 94px 0;
+}
+
+.reasons-list {
+  display: flex;
+}
+
+.reasons-list .list {
+  width: 270px;
+}
+
+.reasons-list .list:not(:last-child) {
+  margin-right: 30px;
+}
+
+.reasons-icons-container {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.reasons-icon {
+  width: 70px;
+  height: 70px;
+}
+
+.reasons-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
