@@ -1,17 +1,28 @@
 .reasons {
-  padding: 94px 0;
+  padding: 60px 0;
+
+  @media screen and (min-width: $desktop) {
+    padding: 94px 0;
+  }
 }
 
 .reasons-list {
-  display: flex;
+   @media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -30px;
+    }
 }
 
 .reasons-list .list {
-  width: 270px;
-}
+  @media screen and(min-width: 768px) {
+        flex-basis: calc(100% / 2 - 30px);
+        margin-left: 30px;
+    }
 
-.reasons-list .list:not(:last-child) {
-  margin-right: 30px;
+    @media screen and (min-width: 1200px) {
+        flex-basis: calc(100% / 4 - 30px);
+    }
 }
 
 .reasons-icons-container {
