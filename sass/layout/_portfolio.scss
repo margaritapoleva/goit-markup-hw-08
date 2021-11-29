@@ -21,11 +21,15 @@
   }
 }
 
-.btn-filter-item:not(:last-child) {
-  margin-right: 8px;
-  margin-bottom: 15px;
+.btn-filter-item {
+  @media screen and (max-width: 767px) {
+    margin: 7px 4px;
+  }
+
   @media screen and (min-width: 768px) {
-    margin-bottom: 0;
+    &:not(:last-child) {
+      margin-right: 8px;
+    }
   }
 }
 
@@ -61,7 +65,6 @@
 
 
 .project-list {
-margin-bottom: -30px;
     @media screen and (min-width: 768px) {
         display: flex;
         flex-wrap: wrap;
@@ -70,8 +73,11 @@ margin-bottom: -30px;
 }
 
 .project-list-item {
-
+  
+  &:not(:last-child) {
   margin-bottom: 30px;
+  }
+
   @media screen and (min-width: 768px) {
     display: flex;
     flex-basis: calc(100% / 2 - 30px);
